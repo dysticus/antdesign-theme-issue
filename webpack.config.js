@@ -34,7 +34,9 @@ module.exports = {
             loader: 'less-loader',
             options: {
               lessOptions: {
-                modifyVars: {},
+                modifyVars: {
+                  'menu-item-font-size': '50px'
+                },
                 javascriptEnabled: true
               }
             }
