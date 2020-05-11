@@ -34,7 +34,10 @@ module.exports = {
             loader: 'less-loader',
             options: {
               lessOptions: {
-                modifyVars: {},
+                modifyVars: {
+                  'modal-header-bg': 'blue',
+                  'modal-heading-color': '#fff'
+                },
                 javascriptEnabled: true
               }
             }
