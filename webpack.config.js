@@ -34,7 +34,10 @@ module.exports = {
             loader: 'less-loader',
             options: {
               lessOptions: {
-                modifyVars: {},
+                modifyVars: {
+                  'card-head-background': 'blue',
+                  'card-head-color': '#fff'
+                },
                 javascriptEnabled: true
               }
             }
